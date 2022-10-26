@@ -15,6 +15,7 @@ event = threading.Event()
 event.set()
 
 # Initialising # global attributes for HAAS serial comm macros
+# we need to change this
 *** mac_status = part_num = prog_name = sspeed = coolant = sload = cut_status = combined_output = 'Nil'
 
 """Creating Socket Objects"""
@@ -59,7 +60,7 @@ def fetch_from_Tormach():
 
 
 *** *** ***
-
+# we need to change this
 *** *** ***
 
 """Main Thread Class For Clients"""
